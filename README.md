@@ -119,5 +119,3 @@ userRef.child("totalPoints").runTransaction(object : Transaction.Handler { ... }
 
 ## Contact
 For contributions, suggestions, or inquiries, please open an issue or contact the team via GitHub.
-
-THIS IS A TEST!
