@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">E-Ms1a</string>
+    <string name="back">Back</string>
+    <string name="state_image">State Image</string>
+    <string name="state_flag">State Flag</string>
+    <string name="flag_element_image">Flag Element</string>
+</resources>

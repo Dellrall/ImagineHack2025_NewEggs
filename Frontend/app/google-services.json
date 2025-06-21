@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "602450157943",
+    "firebase_url": "https://e-ms1a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "e-ms1a",
+    "storage_bucket": "e-ms1a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602450157943:android:d6c0a5f3b3627de954c172",
+        "android_client_info": {
+          "package_name": "com.example.neweggs_ems1a"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB19PmRzk6Iti2NaHwNpB0ZgiATjCI0W5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

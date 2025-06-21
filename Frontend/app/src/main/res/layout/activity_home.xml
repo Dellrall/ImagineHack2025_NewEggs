@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="450dp"
+        android:layout_height="994dp"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/stars" />
+
+    <TextView
+        android:id="@+id/mainmenutext"
+        android:layout_width="299dp"
+        android:layout_height="80dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textColor="#FFFDFD"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/option1"
+        android:layout_width="119dp"
+        android:layout_height="32dp"
+        android:text="States"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/option2"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:text="Our Flag"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/option3"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/option4"
+        android:layout_width="122dp"
+        android:layout_height="41dp"
+        android:text="Redeem"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/statesButton"
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:background="@drawable/circular_background"
+        android:contentDescription="Click to here to enter the Mathematics world!"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228"
+        app:srcCompat="@drawable/malaysiastates"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/FlagsButton"
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:background="@drawable/circular_background"
+        android:contentDescription="Click to here to enter the Mathematics world!"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/malaysiaflag"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/QuizButton"
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:background="@drawable/circular_background"
+        android:contentDescription="Click to here to enter the Mathematics world!"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/science"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/RedeemButton"
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:background="@drawable/circular_background"
+        android:contentDescription="Click to here to enter the Mathematics world!"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"
+        app:srcCompat="@drawable/redeem"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/home_exit"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rounded_button"
+        android:text="Exit"
+        android:textColor="#E60505"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.907"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="135dp"
+        android:layout_height="58dp"
+        android:background="@drawable/rounded_button"
+        android:text="LOGOUT"
+        android:textColor="#ED0505"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <ImageButton
+        android:id="@+id/homeprofile_btn"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:background="@drawable/circular_background"
+        android:contentDescription="Profile Image Icon"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045"
+        app:srcCompat="@drawable/profile_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserratitalic"
+        android:text="Note : Click the icon(s) to proceed to their menus."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
