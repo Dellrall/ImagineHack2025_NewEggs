@@ -19,6 +19,7 @@ Malaysian Culture digitalized — promoting our proudest local Malaysian heritag
 - **DeepSeek R1 (Generative AI)** — Likely for content generation.
 - **IbisPaintX** — Logo and graphic design.
 - **Github** — Version control and collaboration.
+- **Github Copilot** — Generate Standard README.md file for easy viewing 
 
 ## Main Features (from Kotlin Code)
 
